@@ -1,0 +1,554 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MEJCL</title>
+  </head>
+  <body>
+    <nav>
+        <div class="logo">
+          <i class="fas fa-mountain"
+            ><img src="Images/island.svg" alt="image-logo"
+          /></i>
+          Aventures à Konkoni
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="#home">Acueil</a></li>
+          <li><a href="#packages">Nos Offres</a></li>
+          <li><a href="#blog">Destinations</a></li>
+          <li><a href="#testimonials">Témoignages</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="mobile-menu">
+          <i class="fas fa-bars"></i>
+        </div>
+
+        <a href="#" class="cta-button" onclick="openBookingPopup()"
+          >Réservez Maintenant</a
+        >
+      </nav>
+      <!-- Mobile Navigation -->
+      <div class="nav-mobile">
+        <a href="#home">Acueil</a>
+        <a href="#packages">Nos Offres</a>
+        <a href="#blog">Destinations</a>
+        <a href="#testimonials">Témoignages</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>Conquerir Konkoni</h1>
+        <p>
+          Vivez l’aventure ultime au cœur de Konkoni. Partez à la découverte du
+          toit de la region de Bambao avec des guides experts et des paysages à
+          couper le souffle.
+        </p>
+        <div class="hero-buttons">
+          <a href="#packages" class="btn-primary">Explorer Les Offres</a>
+          <a href="#about" class="btn-secondary">Savoir plus</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+      <div class="features-content">
+        <h2 class="section-title">
+          Pourquoi choisir d'aller s'aventurer à Konkoni ?
+        </h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <i class="fas fa-mountain feature-icon"></i>
+            <h3>Wandru-waduhazi, des guides d'expérience</h3>
+            <p>
+              Nos guides, Wandru-waduhazi, connaissent tous les recoins et ont
+              des années d'expérience de Konkoni. Ils assurent votre sécurité et
+              rendent la réussite de vos expeditons irratables.
+            </p>
+          </div>
+          <div class="feature-card">
+            <i class="fas fa-shield-alt feature-icon"></i>
+            <h3>La sécurité est primordiale</h3>
+            <p>
+              Nous priorisons votre sécurité avec tous les équipements
+              nécessaires, l'entraînement qu'il faut et nous avons mis en place
+              des protocoles de sécurités pour les randonnées en montagne.
+            </p>
+          </div>
+          <div class="feature-card">
+            <i class="fas fa-gem feature-icon"></i>
+            <h3>Experience Premium</h3>
+            <p>
+              From luxury base camps to boat transfers, we ementies that make
+              your Konkoni journey confortables and unforgattable.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Packages Sections -->
+    <section class="packages" id="packages">
+      <div class="container">
+        <h2 class="section-title">Les Offres de l'Aventures</h2>
+        <div class="packages-grid">
+          <div class="package-card">
+            <div class="package-bagde">Populaire</div>
+            <div class="package-image">
+              <img
+                src="Images/WhatsApp Image 2026-05-08 at 23.51.55.jpeg"
+                alt="Nkonkoni Travels"
+              />
+            </div>
+            <div class="package-content">
+              <div class="package-price">2000 KMF</div>
+              <div class="package-title">Camp de base de Konkoni</div>
+              <ul class="package-features">
+                <li>
+                  <i class="fas fa-check"></i>14 jours de guides pour la
+                  randonnée
+                </li>
+                <li><i class="fas fa-check"></i>Tous repas inclus</li>
+                <li>
+                  <i class="fas fa-check"></i>Des Conducteurs profesionnels
+                </li>
+                <li><i class="fas fa-check"></i>Experiences de luxe</li>
+              </ul>
+              <button
+                class="package-btn"
+                onclick="openBookingPopup('Nkonkoni Boat Tour')"
+              >
+                Réservez cette offre
+              </button>
+            </div>
+          </div>
+          <div class="package-card">
+            <div class="package-bagde">Populaire</div>
+            <div class="package-image">
+              <img
+                src="Images/WhatsApp Image 2026-05-08 at 23.51.55.jpeg"
+                alt="Nkonkoni Travels"
+              />
+            </div>
+            <div class="package-content">
+              <div class="package-price">2000 KMF</div>
+              <div class="package-title">Camp de base d'Itsanga Shema</div>
+              <ul class="package-features">
+                <li>
+                  <i class="fas fa-check"></i>14 jours de guides pour la
+                  randonnée
+                </li>
+                <li><i class="fas fa-check"></i>Tous repas inclus</li>
+                <li>
+                  <i class="fas fa-check"></i>Des Conducteurs profesionnels
+                </li>
+                <li><i class="fas fa-check"></i>Exériences luxieuses</li>
+              </ul>
+              <button
+                class="package-btn"
+                onclick="openBookingPopup('Nkonkoni Boat Tour')"
+              >
+                Réservez cette offre
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <h2 class="section-title">Qu'est-ce nos Aventures racontent ?</h2>
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="testimonial-text">
+              "Le trek du camp de base de Konkoni était absolument incroyable
+              (...) les guides étaient incroyablement compétents et (...) à
+              chaque étape du parcours. (...) les vues étaient au-delà de tout
+              ce que j'aurais pu imaginer."
+            </div>
+            <div class="textimonial-author">
+              <img
+                src="Images/Gemini_Generated_Image_e21krge21krge21k.png"
+                alt="Codymn "
+                class="author-avatar"
+              />
+              <div class="author-info">
+                <h4>Jhon Smith</h4>
+                <p>Photographe, USA</p>
+              </div>
+
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-text">
+              "Le trek du camp de base de Konkoni était absolument incroyable
+              (...) les guides étaient incroyablement compétents et (...) à
+              chaque étape du parcours. (...) les vues étaient au-delà de tout
+              ce que j'aurais pu imaginer."
+            </div>
+            <div class="textimonial-author">
+              <img
+                src="Images/Gemini_Generated_Image_e21krge21krge21k.png"
+                alt="Codymn "
+                class="author-avatar"
+              />
+              <div class="author-info">
+                <h4>Jhon Smith</h4>
+                <p>Photographe, USA</p>
+              </div>
+
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-text">
+              "Le trek du camp de base de Konkoni était absolument incroyable
+              (...) les guides étaient incroyablement compétents et (...) à
+              chaque étape du parcours. (...) les vues étaient au-delà de tout
+              ce que j'aurais pu imaginer."
+            </div>
+            <div class="textimonial-author">
+              <img
+                src="Images/Gemini_Generated_Image_e21krge21krge21k.png"
+                alt="Codymn "
+                class="author-avatar"
+              />
+              <div class="author-info">
+                <h4>Jhon Smith</h4>
+                <p>Photographe, USA</p>
+              </div>
+
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog" id="blog">
+      <div class="blog" id="blog">
+        <div class="container">
+          <h2 class="section-title">Des Aventures & Des Tips</h2>
+          <div class="blog-grid">
+            <div class="blog-card">
+              <div class="blog-image">
+                <img src="Images/Mwandzaza img.jpeg" alt="blog-image" />
+              </div>
+
+              <div class="blog-content">
+                <div class="blog-meta">
+                  <span><i class="fas fa-calendar"></i>10 mai 2026</span>
+                  <span><i class="fas fa-user"></i>Mwenkeza ndzia</span>
+                </div>
+
+                <h3 class="blog-title">
+                  Les astuces et l'entraînement nécessaires du camp de base de
+                  Konkoni
+                </h3>
+                <p class="blog-expert">
+                  Les randonneurs se prépares plusieurs jours pour la randonnée
+                  sur le camp de base de Konkoni. Ils passent deux ou trois
+                  jours avec un guide "Mwenkeza ndzia" afin d'être prêt le jour
+                  de la rando. Les guides sont sympas et très compréhensifs. Ils
+                  vous donnent les meilleurs astuces pour une randonné très
+                  réussie. ...
+                </p>
+                <a href="" class="blog-link"
+                  >Savoir Plus<i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="blog-card">
+              <div class="blog-image">
+                <img src="Images/Mwandzaza img.jpeg" alt="blog-image" />
+              </div>
+
+              <div class="blog-content">
+                <div class="blog-meta">
+                  <span><i class="fas fa-calendar"></i>10 mai 2026</span>
+                  <span><i class="fas fa-user"></i>Mwenkeza ndzia</span>
+                </div>
+
+                <h3 class="blog-title">
+                  Les astuces et l'entraînement nécessaires du camp de base
+                  d'Itsanga Shema
+                </h3>
+                <p class="blog-expert">
+                  Les randonneurs se prépares plusieurs jours pour la randonnée
+                  sur le camp de base d'Itsanga Shema. Ils passent deux ou trois
+                  jours avec un guide "Mwenkeza ndzia" afin d'être prêt le jour
+                  de la rando. Les guides sont sympas et très compréhensifs. Ils
+                  vous donnent les meilleurs astuces pour une randonné très
+                  réussie. ...
+                </p>
+                <a href="" class="blog-link"
+                  >Savoir Plus<i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="blog-card">
+              <div class="blog-image">
+                <img src="Images/Mwandzaza img.jpeg" alt="blog-image" />
+              </div>
+
+              <div class="blog-content">
+                <div class="blog-meta">
+                  <span><i class="fas fa-calendar"></i>10 mai 2026</span>
+                  <span><i class="fas fa-user"></i>Mwenkeza ndzia</span>
+                </div>
+
+                <h3 class="blog-title">
+                  Les astuces et l'entraînement nécessaires du camp de base de
+                  Ngutsini
+                </h3>
+                <p class="blog-expert">
+                  Les randonneurs se prépares plusieurs jours pour la randonnée
+                  sur le camp de base de Ngutsini. Ils passent deux ou trois
+                  jours avec un guide "Mwenkeza ndzia" afin d'être prêt le jour
+                  de la rando. Les guides sont sympas et très compréhensifs. Ils
+                  vous donnent les meilleurs astuces pour une randonné très
+                  réussie. ...
+                </p>
+                <a href="" class="blog-link"
+                  >Savoir Plus<i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <h3>500+</h3>
+            <p>Des Expeditions réussies</p>
+          </div>
+          <div class="stat-item">
+            <h3>15+</h3>
+            <p>D'Années d'expériences</p>
+          </div>
+          <div class="stat-item">
+            <h3>98%</h3>
+            <p>D'Avantures réussies</p>
+          </div>
+          <div class="stat-item">
+            <h3>2000+</h3>
+            <p>Aventures joyeuses</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Les Aventures de Konkoni</h3>
+            <p>
+              Votre porte d'entrée vers ce majestueux paysage à Mwandzaza.
+              Depuis plus de 5 ans, nous organisons des aventures sur les plus
+              beaux sites de l'île de Ngazidja avec une expertise et une
+              sécurité inégalées.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-tiktok"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-section">
+            <h3>Les Aventures les plus populaires</h3>
+            <ul>
+              <li><a href="#">Camp de base de randonnée à Konkoni </a></li>
+              <li><a href="#">Circuit du Ngutsini</a></li>
+              <li><a href="#">Tour en bateau à Konkoni</a></li>
+              <li><a href="#">Balade à Itsanga Shema</a></li>
+              <li><a href="#">Circuit à la plage de Konkoni</a></li>
+              <li><a href="#">La Randonné du Djongoni</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h3>Les liens</h3>
+
+            <ul>
+              <li><a href="#home">Acueil</a></li>
+              <li><a href="#packages">Nos Offres</a></li>
+              <li><a href="#blog">Destinations</a></li>
+              <li><a href="#testimonials">Témoignages</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h3>Contact info</h3>
+
+            <ul class="contact-info">
+              <p>
+                <i class="fas fa-map-marker-alt"></i> Mwandzaza Mbwani,
+                Ngazidja, Comores
+              </p>
+              <p><i class="fas fa-phone"></i> +269 347 33 79</p>
+              <p><i class="fas fa-envelope"></i> konkonijourney@gmail.com</p>
+              <p><i class="fas fa-clock"></i> Assistance d'urgence 24/7</p>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2026 Konkoni Aventures. All right reserved. | Licenced by
+            Mwandzaza Tourism Board | Reg. N°. 12345/067/068
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Booking Popup -->
+    <div class="booking-overlay" id="bookingOverlay">
+      <div class="booking-popup">
+        <button class="close-popup" onclick="closeBookingPopup()">
+          <i class="fas fa-times"></i>
+        </button>
+        <form
+          class="booking-form"
+          onsubmit="handleBookingSubmit(event)"
+          autocomplete="off"
+        >
+          <h3>Réservez ton aventure</h3>
+
+          <div class="form-group">
+            <label for="package">Choisez une offre</label>
+            <select name="package" id="package" required>
+              <option value="">Choisis une offre</option>
+              <option value="nkonkoni-base-camp">
+                Camp de Base de Randonnée à Konkoni - 2000 KMF
+              </option>
+              <option value="itsanga-shema-circuit">
+                Circuit d'Aventures d'Itsanga Shema - 1500 KMF
+              </option>
+              <option value="ngutsini-boat-tour">
+                Tour en bateau au Ngutsini - 3000 KMF
+              </option>
+              <option value="Djongoni-randonnée">
+                La Randonné au Djongoni - 1800 KMF
+              </option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">Prénom</label>
+              <input type="text" id="firstName" name="firstName" required />
+            </div>
+
+            <div class="form-group">
+              <label for="lastName">Nom</label>
+              <input type="text" id="lastName" name="lastName" required />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Numéro de téléphone</label>
+              <input type="tel" id="phone" name="phone" required />
+            </div>
+
+            <div class="form-group">
+              <label for="country">Pays</label>
+              <input type="text" id="country" name="country" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="travelDate">Dates de voyage</label>
+              <input type="date" id="travelDate" name="travelDate" required />
+            </div>
+
+            <div class="form-group">
+              <label for="groupeSize">Nombre de voyageurs</label>
+              <select name="groupeSize" id="groupeSize" required>
+                <option value="">Choisez le nombre de voyageurs</option>
+                <option value="1">Solo (1 personne)</option>
+                <option value="2">Couple (2 personnes)</option>
+                <option value="3-5">Petit group (3-5 personnes)</option>
+                <option value="6+">Large groupe (6+ personnes)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="experience">Experience en randonnée</label>
+            <select name="experience" id="experience" required>
+              <option value="">Choisez le niveau d'experience</option>
+              <option value="Biginner">Débutant</option>
+              <option value="intermediate">Intermediaire</option>
+              <option value="advenced">Avancé</option>
+              <option value="Expert">Expert</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="specialRequests">Demandes spéciales</label>
+            <textarea
+              name="specialRequests"
+              id="specialRequests"
+              rows="3"
+              placeholder="Please mention your special request if you have any."
+            ></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn">
+            <i class="fas fa-paper-plane"></i> Envoyez votre demande
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

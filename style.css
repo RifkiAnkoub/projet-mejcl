@@ -20,7 +20,7 @@ body {
         Noto Color Emoji;
     color: #000000;
     line-height: 1.6;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .container {
@@ -140,4 +140,47 @@ nav {
     border-bottom: 1px solid #e2e8fe;
     color: var(--dark);
     text-decoration: none;
+}
+/* les bloc des div dans les section*/
+.stat-card {
+    padding: 2rem;
+    /* Pas de marge du bas pour éviter de casser la grille */
+    margin: 0;
+}
+
+/* Le conteneur grille qui prend toute la hauteur de l'écran 
+background: rgba(159, 180, 220, 0.788);*/
+.stats-grid {
+    background: rgba(38, 74, 141, 0.788);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    align-items: center;
+
+    /* Hauteur pleine écran avant scroll */
+    min-height: 100vh;
+    min-height: 100dvh;
+    box-sizing: border-box;
+    padding: 2rem;
+}
+/*ecriture utilise dans hero */
+.sous_titre2 {
+    font-size: 1.3rem;
+    margin: 0 0 0.5rem 0;
+    font-weight: 300;
+    opacity: 1;
+}
+/*bouton dans hero*/
+.cta-button2 {
+    background: #e71313;
+    color: white;
+    text-transform: uppercase;
+    padding: 16px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+    transition: all 0.3 ease;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.9);
+    margin: 2rem;
 }

@@ -279,7 +279,6 @@ background: rgba(159, 180, 220, 0.788);*/
 
 /*le contenant qui va pertmettrre de metrre des bloc sur horizontal*/
 .testimonial-grid {
-    background: rgba(38, 74, 141, 0.788);
     display: flex;
     gap: 2rem;
     width: 100%;
@@ -291,6 +290,11 @@ background: rgba(159, 180, 220, 0.788);*/
     overflow-y: hidden;
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
+}
+
+.testimonial_backround {
+    padding: 100px 0;
+    background: rgba(38, 141, 114, 0.788);
 }
 
 .sous_titre_italic2 {

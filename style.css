@@ -254,3 +254,49 @@ background: rgba(159, 180, 220, 0.788);*/
     color: white;
     margin-bottom: 1rem;
 }
+
+/*fait monter le bloc de 5px grace au translateY*/
+.testimonials::-webkit-scrollbar {
+    display: none;
+}
+
+.testimonial-card {
+    flex: 0 0 calc(50% - 1rem);
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    scroll-snap-align: start;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    align-items: center;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(102, 126, 234, 0.2);
+}
+
+/*le contenant qui va pertmettrre de metrre des bloc sur horizontal*/
+.testimonial-grid {
+    background: rgba(38, 74, 141, 0.788);
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    max-width: 1400px;
+    height: 550px;
+    margin: 0 auto;
+    padding: 7rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
+
+.sous_titre_italic2 {
+    font-size: 1.2rem;
+    margin: 0;
+    opacity: 0.85;
+    font-style: italic;
+}
+/**************************************/

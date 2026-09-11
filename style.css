@@ -255,6 +255,217 @@ background: rgba(159, 180, 220, 0.788);*/
     margin-bottom: 1rem;
 }
 
+
+
+/*-------------------------- Section Action ---------------------------*/
+
+/* Section globale */
+.action {
+    background: rgba(38, 74, 141, 0.788);
+}
+
+/* Titre principal H2 */
+.titre-actions {
+    color: var(--couleur-rouge);
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 2.5rem;
+    padding: 3.5rem 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Conteneur des 3 boîtes */
+.boite-enveloppe {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Structure de chaque grande boîte */
+.boite-contenu {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #1a103c;
+    /* Bleu-violet plus sombre pour contraster le fond */
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Image à gauche */
+.boite-media {
+    width: 100%;
+    height: 100%;
+}
+
+
+.boite-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+.contenu-boite-rouge,
+.contenu-boite-vert {
+    padding: 2.5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.contenu-boite-jaune {
+    padding: 3rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+/* Alignement du petit logo + H3 */
+.entete-boite {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.entete-boite-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+
+.boite-rouge .titre1,
+.boite-jaune .titre2,
+.boite-vert .titre3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+
+/* Paragraphes */
+.boite-body p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.boite-body p:last-child {
+    margin-bottom: 0;
+}
+
+.texte-blanc {
+    color: var(--couleur-blanc);
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 12px 24px;
+}
+
+/* Styles des boutons par défaut */
+.boite-actions {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.boite-btn {
+    padding: 8px 34px;
+    background-color: transparent;
+    color: var(--couleur-rouge);
+    border: 2px solid var(--couleur-rouge);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+/* ===================================================
+   GESTION DES COULEURS ET DES SURVOLES PAR BOÎTE
+   =================================================== */
+
+/* Boîte 1 : ROUGE */
+
+.titre1 {
+    color: var(--couleur-rouge);
+}
+
+.boite-rouge .priemier-texte-colore {
+    color: var(--couleur-rouge);
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 30px;
+}
+
+.boite-rouge .boite-btn:hover {
+    background-color: var(--couleur-rouge);
+    color: #1a103c;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: all 0.3 ease;
+}
+
+/* Boîte 2 : JAUNE */
+.titre2 {
+    color: var(--couleur-jaune);
+}
+
+.boite-jaune .priemier-texte-colore {
+    color: var(--couleur-jaune);
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 30px;
+}
+
+.boite-jaune .boite-btn:hover {
+    background-color: var(--couleur-jaune);
+    border-color: var(--couleur-jaune);
+    color: #1a103c;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: all 0.3 ease;
+}
+
+/* Boîte 3 : VERTE */
+.boite-vert {
+    margin-bottom: 3rem;
+}
+
+.titre3 {
+    color: var(--couleur-vert);
+}
+
+.boite-vert .priemier-texte-colore {
+    color: var(--couleur-vert);
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+.boite-vert .boite-btn:hover {
+    background-color: var(--couleur-vert);
+    border: 2px solid var(--couleur-vert);
+    color: #1a103c;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: all 0.3 ease;
+}
+
+
+/*-------------------------- Section Testimonial ---------------------------*/
+
+
 /*fait monter le bloc de 5px grace au translateY*/
 .testimonials::-webkit-scrollbar {
     display: none;
@@ -303,4 +514,5 @@ background: rgba(159, 180, 220, 0.788);*/
     opacity: 0.85;
     font-style: italic;
 }
+
 /**************************************/

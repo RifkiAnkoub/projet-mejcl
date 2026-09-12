@@ -29,6 +29,16 @@ body {
     padding: 0 20px;
 }
 
+/* Variables de couleurs */
+:root {
+  --bg-blue-violet: #010e42f2;
+  /* Fond bleu-violet */
+  --couleur-rouge: #e71313;
+  --couleur-jaune: #ebc323;
+  --couleur-vert: #64e764;
+  --couleur-blanc: #e2e8fe;
+}
+
 /*------------------- Header ------------------ */
 
 header {
